@@ -1,0 +1,1 @@
+avrdude -p m256rfr2 -c stk500v2 -P "COM3" -b 38400 -e  -U flash:w:ds1307rtc.ino.atmega256rfr2_xplained_pro.hex

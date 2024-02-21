@@ -1,0 +1,1 @@
+avrdude -p m128rfa1 -c avr109 -P "COM10" -b 38400 -e  -U flash:w:main.hex
